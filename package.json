@@ -1,0 +1,27 @@
+{
+  "name": "basiclightboxtest",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TarasKostr/basiclightboxtest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TarasKostr/basiclightboxtest/issues"
+  },
+  "homepage": "https://github.com/TarasKostr/basiclightboxtest#readme",
+  "dependencies": {
+    "basiclightbox": "^5.0.4",
+    "chart.js": "^4.5.0"
+  }
+}
